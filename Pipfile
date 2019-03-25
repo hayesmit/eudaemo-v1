@@ -8,6 +8,11 @@ verify_ssl = true
 [packages]
 django = "*"
 social-auth-app-django = "*"
+oauth2client = "*"
+httplib2 = "*"
+apiclient = "*"
+requests = "*"
+googleapiclient = "*"
 
 [requires]
 python_version = "3.7"

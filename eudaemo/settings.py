@@ -114,7 +114,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 SOCIAL_AUTH_GOOGLE_OAUTH2_KEY = '1017306318542-8l371jruhoaor6cfk782g5t99tvk08it.apps.googleusercontent.com'
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET = 'FFP8-ib_yiua-WSlaGfcDCS-'
-
+SOCIAL_AUTH_GOOGLE_OAUTH2_SCOPE = ['https://www.googleapis.com/auth/calendar', 'https://www.googleapis.com/auth/calendar.events']
 SOCIAL_AUTH_URL_NAMESPACE = 'social'
 
 
